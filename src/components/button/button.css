@@ -1,0 +1,45 @@
+.button{
+    border-radius: 15px;
+    background-color: #8DC642;
+    color: #ffffff;
+    padding: 27px 74px;
+    text-decoration: none;
+    font-family: Gotham;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: -0.055em;
+    position: relative;
+    border: none;
+    display: flex;
+    margin: 0 auto;
+}
+@media (min-width:800px) {
+    .button{
+        margin-bottom: 280px;
+    }
+}
+@media (min-width:1000px) {
+    .button{
+        margin-bottom: 280px;
+    }
+}
+@media (max-width:768px) {
+    .button{
+        padding: 10px 30px;
+        font-size: 20px;
+    }    
+}
+@media (max-width:400px) {
+    .button{
+        margin-bottom: 70px;
+    }
+}
+@media (max-width:330px) {
+    .button{
+        margin-bottom: 20px;
+        font-size: 15px;
+        padding: 6px 15px;
+        border-radius: 10px;
+    }
+}

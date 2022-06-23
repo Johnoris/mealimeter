@@ -1,0 +1,38 @@
+.card-component{
+    background-color: white;
+    padding-top: 48px;
+    height: 268.451171875px;
+    width: 268px;
+    border-radius: 56px;
+    margin-top: 70px;
+}
+.card-component h6{
+    font-family: Gotham;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.06em;
+    width: 14rem;
+    color: #585858;
+    text-align: center;
+    padding: 0;
+    max-width: 210px;
+    padding-left: 40px;
+}
+.card-component img{
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 3rem;
+    height: 74px;
+}
+@media (max-width:767px) {
+    .card-component{
+        width:220px;
+        height: 220px;
+        margin-top: 30px;
+    }
+    .card-component h6{
+        padding-left: 0px;
+        font-size: 20px;
+    }
+} 
